@@ -83,8 +83,7 @@ namespace Reroi.Api.Controllers
             Property newProperty = new Property {
                 Mls = property.Mls,
                 NetOperatingIncome = property.NetOperatingIncome,
-                PurchasePrice = property.PurchasePrice,
-                Roi = property.Roi };
+                PurchasePrice = property.PurchasePrice };
 
             propertyRepository.Add(newProperty);
             propertyRepository.Commit();
@@ -114,7 +113,6 @@ namespace Reroi.Api.Controllers
                 updateProperty.Mls = property.Mls;
                 updateProperty.NetOperatingIncome = property.NetOperatingIncome;
                 updateProperty.PurchasePrice = property.PurchasePrice;                
-                updateProperty.Roi = property.Roi;
                 propertyRepository.Commit();
             }
 

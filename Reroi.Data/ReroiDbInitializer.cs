@@ -40,10 +40,10 @@ namespace Reroi.Data
 
             if (!context.Properties.Any())
             {
-                Property c1 = new Property { Mls = 201512981, NetOperatingIncome = 680.35, PurchasePrice = 190000, Roi = 0.04 };
-                Property c2 = new Property { Mls = 201612981, NetOperatingIncome = 1036.03, PurchasePrice = 190000, Roi = 0.07 };
-                Property c3 = new Property { Mls = 201712981, NetOperatingIncome = 1075, PurchasePrice = 195000, Roi = 0.07 };
-                Property c4 = new Property { Mls = 201709996, NetOperatingIncome = 783.49, PurchasePrice = 212000, Roi = 0.04 };
+                Property c1 = new Property { Mls = 201512981, NetOperatingIncome = 680.35, PurchasePrice = 190000 };
+                Property c2 = new Property { Mls = 201612981, NetOperatingIncome = 1036.03, PurchasePrice = 190000 };
+                Property c3 = new Property { Mls = 201712981, NetOperatingIncome = 1075, PurchasePrice = 195000 };
+                Property c4 = new Property { Mls = 201709996, NetOperatingIncome = 783.49, PurchasePrice = 212000 };
                 
             
                 context.Properties.Add(c1); context.Properties.Add(c2);
