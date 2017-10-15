@@ -10,6 +10,9 @@ using System.Linq;
 
 namespace Reroi.Api.Controllers
 {
+    /// <summary>
+    /// Property Controller class.
+    /// </summary>
     [Route("api/[controller]")]
     public class PropertyController : Controller
     {
