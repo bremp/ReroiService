@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reroi.Model", "ReroiService\Reroi.Model.csproj", "{B94EF14D-26CF-459A-BE54-626359D79877}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reroi.Model", "Reroi.Model\Reroi.Model.csproj", "{B94EF14D-26CF-459A-BE54-626359D79877}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reroi.Data", "Reroi.Data\Reroi.Data.csproj", "{34E77B95-E62C-410A-8018-8F0665F4B6AD}"
 EndProject

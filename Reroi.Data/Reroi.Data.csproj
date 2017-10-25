@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReroiService\Reroi.Model.csproj" />
+    <ProjectReference Include="..\Reroi.Model\Reroi.Model.csproj" />
   </ItemGroup>
 
 </Project>
